@@ -34,6 +34,12 @@
       width: 15em;
     }
 
+    /* Meilleur visibilité au focus */
+    &:focus {
+      outline: 1px solid var(--dark);
+      box-shadow: inset 0 -8px 0 var(--red-dark);
+    }
+
     &:focus {
       outline: 0;
       box-shadow: inset 0 -2px 0 var(--red-dark);
